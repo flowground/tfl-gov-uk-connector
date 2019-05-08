@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "types": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "page": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

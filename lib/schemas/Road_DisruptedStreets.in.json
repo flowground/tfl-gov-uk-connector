@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "startDate": {
+            "required": true,
+            "type": "string",
+            "format": "date-time"
+        },
+        "endDate": {
+            "required": true,
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

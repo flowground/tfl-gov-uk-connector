@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "toStopPointId": {
+            "required": true,
+            "type": "string"
+        },
+        "lineId": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

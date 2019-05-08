@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "direction": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "inbound",
+                "outbound",
+                "all"
+            ]
+        },
+        "serviceTypes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "Regular",
+                    "Night"
+                ],
+                "type": "string"
+            }
+        },
+        "excludeCrowding": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

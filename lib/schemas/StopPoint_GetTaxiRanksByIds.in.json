@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "stopPointId": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

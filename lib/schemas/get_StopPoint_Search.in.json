@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "properties": {
+        "query": {
+            "required": true,
+            "type": "string"
+        },
+        "modes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "faresOnly": {
+            "required": false,
+            "type": "boolean"
+        },
+        "maxResults": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "lines": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "includeHubs": {
+            "required": false,
+            "type": "boolean"
+        },
+        "tflOperatedNationalRailStationsOnly": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

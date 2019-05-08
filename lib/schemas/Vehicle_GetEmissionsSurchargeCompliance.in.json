@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "vrm": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

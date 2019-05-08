@@ -1,0 +1,66 @@
+{
+    "type": "object",
+    "properties": {
+        "z": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "pinLat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "pinLon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "mapCenterLat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "mapCenterLon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "scenarioTitle": {
+            "required": true,
+            "type": "string"
+        },
+        "timeOfDayId": {
+            "required": true,
+            "type": "string"
+        },
+        "modeId": {
+            "required": true,
+            "type": "string"
+        },
+        "width": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "height": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "direction": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "Average",
+                "From",
+                "To"
+            ]
+        },
+        "travelTimeInterval": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

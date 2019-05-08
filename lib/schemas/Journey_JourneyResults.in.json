@@ -1,0 +1,148 @@
+{
+    "type": "object",
+    "properties": {
+        "from": {
+            "required": true,
+            "type": "string"
+        },
+        "to": {
+            "required": true,
+            "type": "string"
+        },
+        "via": {
+            "required": false,
+            "type": "string"
+        },
+        "nationalSearch": {
+            "required": false,
+            "type": "boolean"
+        },
+        "date": {
+            "required": false,
+            "type": "string"
+        },
+        "time": {
+            "required": false,
+            "type": "string"
+        },
+        "timeIs": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "Arriving",
+                "Departing"
+            ]
+        },
+        "journeyPreference": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "LeastInterchange",
+                "LeastTime",
+                "LeastWalking"
+            ]
+        },
+        "mode": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "accessibilityPreference": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "NoRequirements",
+                    "NoSolidStairs",
+                    "NoEscalators",
+                    "NoElevators",
+                    "StepFreeToVehicle",
+                    "StepFreeToPlatform"
+                ],
+                "type": "string"
+            }
+        },
+        "fromName": {
+            "required": false,
+            "type": "string"
+        },
+        "toName": {
+            "required": false,
+            "type": "string"
+        },
+        "viaName": {
+            "required": false,
+            "type": "string"
+        },
+        "maxTransferMinutes": {
+            "required": false,
+            "type": "string"
+        },
+        "maxWalkingMinutes": {
+            "required": false,
+            "type": "string"
+        },
+        "walkingSpeed": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "Slow",
+                "Average",
+                "Fast"
+            ]
+        },
+        "cyclePreference": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "None",
+                "LeaveAtStation",
+                "TakeOnTransport",
+                "AllTheWay",
+                "CycleHire"
+            ]
+        },
+        "adjustment": {
+            "required": false,
+            "type": "string"
+        },
+        "bikeProficiency": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "Easy",
+                    "Moderate",
+                    "Fast"
+                ],
+                "type": "string"
+            }
+        },
+        "alternativeCycle": {
+            "required": false,
+            "type": "boolean"
+        },
+        "alternativeWalking": {
+            "required": false,
+            "type": "boolean"
+        },
+        "applyHtmlMarkup": {
+            "required": false,
+            "type": "boolean"
+        },
+        "useMultiModalCall": {
+            "required": false,
+            "type": "boolean"
+        },
+        "walkingOptimization": {
+            "required": false,
+            "type": "boolean"
+        },
+        "taxiOnlyTrip": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

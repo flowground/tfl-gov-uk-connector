@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "detail": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

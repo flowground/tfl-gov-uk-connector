@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "lat": {
+            "required": true,
+            "type": "string"
+        },
+        "lon": {
+            "required": true,
+            "type": "string"
+        },
+        "Lat": {
+            "required": true,
+            "type": "string"
+        },
+        "Lon": {
+            "required": true,
+            "type": "string"
+        },
+        "location_lat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "location_lon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        }
+    }
+}

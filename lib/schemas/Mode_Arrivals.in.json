@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "mode": {
+            "required": true,
+            "type": "string"
+        },
+        "count": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

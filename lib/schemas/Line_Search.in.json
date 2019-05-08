@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "query": {
+            "required": true,
+            "type": "string"
+        },
+        "modes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "serviceTypes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "Regular",
+                    "Night"
+                ],
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "placeTypes": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

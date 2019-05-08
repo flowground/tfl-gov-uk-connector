@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "modes": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "page": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

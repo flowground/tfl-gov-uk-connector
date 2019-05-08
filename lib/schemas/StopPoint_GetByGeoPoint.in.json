@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "stopTypes": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "radius": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "useStopPointHierarchy": {
+            "required": false,
+            "type": "boolean"
+        },
+        "modes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "categories": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "returnLines": {
+            "required": false,
+            "type": "boolean"
+        },
+        "location_lat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "location_lon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        }
+    }
+}

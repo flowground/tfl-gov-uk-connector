@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "serviceTypes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "Regular",
+                    "Night"
+                ],
+                "type": "string"
+            }
+        }
+    }
+}

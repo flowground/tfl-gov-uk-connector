@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "lat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "lon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "optype": {
+            "required": false,
+            "type": "string"
+        },
+        "wc": {
+            "required": false,
+            "type": "string"
+        },
+        "radius": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        },
+        "name": {
+            "required": false,
+            "type": "string"
+        },
+        "maxResults": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "legacyFormat": {
+            "required": false,
+            "type": "boolean"
+        },
+        "forceXml": {
+            "required": false,
+            "type": "boolean"
+        },
+        "twentyFourSevenOnly": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "modes": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

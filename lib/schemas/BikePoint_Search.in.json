@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "query": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "dateRangeNullable_startDate": {
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+        },
+        "dateRangeNullable_endDate": {
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

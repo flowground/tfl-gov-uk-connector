@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "detail": {
+            "required": false,
+            "type": "boolean"
+        },
+        "startDate": {
+            "required": true,
+            "type": "string"
+        },
+        "endDate": {
+            "required": true,
+            "type": "string"
+        },
+        "StartDate": {
+            "required": true,
+            "type": "string"
+        },
+        "EndDate": {
+            "required": true,
+            "type": "string"
+        },
+        "dateRange_startDate": {
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+        },
+        "dateRange_endDate": {
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "getFamily": {
+            "required": false,
+            "type": "boolean"
+        },
+        "includeRouteBlockedStops": {
+            "required": false,
+            "type": "boolean"
+        },
+        "flattenResponse": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

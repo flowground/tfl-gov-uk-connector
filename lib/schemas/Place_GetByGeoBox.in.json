@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "categories": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "includeChildren": {
+            "required": false,
+            "type": "boolean"
+        },
+        "type": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "activeOnly": {
+            "required": false,
+            "type": "boolean"
+        },
+        "bbBoxpoints_swLat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "bbBoxpoints_swLon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "bbBoxpoints_neLat": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        },
+        "bbBoxpoints_neLon": {
+            "required": true,
+            "type": "number",
+            "format": "double"
+        }
+    }
+}

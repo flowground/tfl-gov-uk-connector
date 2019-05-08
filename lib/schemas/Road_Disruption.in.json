@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "stripContent": {
+            "required": false,
+            "type": "boolean"
+        },
+        "severities": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "categories": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "closures": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

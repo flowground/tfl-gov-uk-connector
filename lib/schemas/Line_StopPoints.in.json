@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "tflOperatedNationalRailStationsOnly": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

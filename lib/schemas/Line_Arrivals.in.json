@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "stopPointId": {
+            "required": true,
+            "type": "string"
+        },
+        "direction": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "inbound",
+                "outbound",
+                "all"
+            ]
+        },
+        "destinationStationId": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

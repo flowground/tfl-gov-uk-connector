@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "line": {
+            "required": true,
+            "type": "string"
+        },
+        "direction": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "inbound",
+                "outbound",
+                "all"
+            ]
+        }
+    }
+}

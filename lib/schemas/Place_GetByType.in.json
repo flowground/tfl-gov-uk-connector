@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "types": {
+            "required": true,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "activeOnly": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

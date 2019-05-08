@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "fromStopPointId": {
+            "required": true,
+            "type": "string"
+        },
+        "id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "year": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}
